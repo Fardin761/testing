@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VS Code Test Page</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0e0e0e;
+      color: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 8px;
+      font-size: 1.8rem;
+    }
+
+    p {
+      opacity: 0.75;
+      margin: 0;
+    }
+
+    .ad-container {
+      margin-top: 24px;
+      width: 100%;
+      max-width: 320px;
+      min-height: 50px;
+      background: #1c1c1c;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>VS Code → GitHub Pages ✅</h1>
+  <p>If this looks same everywhere, you’re good.</p>
+
+  <div class="ad-container">
+    Ad loads here
+  </div>
+
+  <!-- SAFE AD SCRIPT LOADER -->
+  <script>
+    window.addEventListener("load", function () {
+      var script = document.createElement("script");
+      script.src = "https://YOUR-ADSTERRA-SCRIPT.js";
+      script.async = true;
+      script.onerror = function () {
+        console.log("Ad script blocked or failed — page still works");
+      };
+      document.body.appendChild(script);
+    });
+  </script>
+
+</body>
+</html>
